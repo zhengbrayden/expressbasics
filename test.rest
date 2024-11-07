@@ -1,0 +1,14 @@
+###
+DELETE http://localhost:4999/delete/?id=9
+
+###
+POST http://localhost:4999/api/?id=8
+Content-Type: application/json
+
+{
+    "information" : "my name is james"
+}
+###
+DELETE http://localhost:4999/delete/james/cool
+
+GET 
